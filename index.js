@@ -5,6 +5,6 @@ const app = express();
 app.use(express.json())
 db()
 app.use(router)
-app.listen(process.env.PORT || 5005,(req,res)=>{
+app.listen(process.env.PORT || 4001,(req,res)=>{
     console.log("server");
 })
